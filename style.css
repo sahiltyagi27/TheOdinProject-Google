@@ -1,12 +1,13 @@
 body{
     position: relative;
     top:50px;
-    left: 20px;
+    left: 0;
 }
 .nav-link{
     text-decoration: none;
     color: rgba(0,0,0,0.87);
     font-size: small;
+    padding: 10px;
 }
 .nav-link:hover{
     text-decoration: underline;
@@ -50,4 +51,14 @@ body{
     padding: 4px;
     right: inherit;
     position: relative;
+}
+footer ul{
+    list-style: none;
+}
+footer{
+    position: fixed;
+    bottom:0;
+    background-color: aliceblue;
+    width: 100%;
+    left: 0;
 }
