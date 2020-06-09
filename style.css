@@ -1,0 +1,53 @@
+body{
+    position: relative;
+    top:50px;
+    left: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: small;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+#navbar ul{
+    list-style: none;
+}
+#navbar{
+    top: 0;
+    right: 10px;
+    position: fixed;
+}
+#img{
+    
+    padding-top: 109px;
+     
+}
+#searchbox{
+    padding-left: 500px;
+}
+
+#search{
+    position: relative;
+   left: 400px;
+}
+.btn{
+    position: relative;
+    left: 480px;
+
+    font-family: liberation sans;
+}
+.btn1{
+    position: relative;
+    left: 485px;
+
+    font-family: liberation sans;
+}
+.sign{
+    background-color: blue;
+    color: white;
+    padding: 4px;
+    right: inherit;
+    position: relative;
+}
